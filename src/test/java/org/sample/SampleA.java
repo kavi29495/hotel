@@ -17,6 +17,8 @@ public class SampleA extends BaseClass{
 	
 	public static void main(String[] args) throws IOException {
 		
+		System.out.println("tracking");
+		
 		BaseClass base = new BaseClass();
 		base.getDriver();
 		base.UrlLaunch("https://adactinhotelapp.com/");
